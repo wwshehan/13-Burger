@@ -1,0 +1,23 @@
+#burgerList {
+   background-color: aliceblue;
+   float: left; 
+   margin-left: 20%;
+}
+#devouredList {
+    background-color: aliceblue;
+    float: right;
+    margin-right: 20%;
+}
+body {
+    background-color: rgb(243, 243, 79);
+}
+h1 {
+    text-align: center;
+    color: darkred;
+}
+.text-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}

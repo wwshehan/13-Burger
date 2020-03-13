@@ -1,5 +1,10 @@
 <h1>Eat-Da-Burger!</h1>
 
+<div class="text-center">
+  <img src="./assets/img/149372.png" class="rounded" alt="burger">
+</div>
+
+<div id="burgerList">
 <ul>
   {{#each burgers}}
   {{#unless devoured}}
@@ -12,8 +17,8 @@
     {{/unless}}
   {{/each}}
 </ul>
-
-
+</div>
+<div id ="devouredList">
 <ul>
   {{#each burgers}}
   {{#if devoured}}
@@ -25,7 +30,7 @@
     {{/if}}
   {{/each}}
 </ul>
-
+</div>
 {{!-- add a burger --}}
 <h2>Enter a burger you want to eat. Click the "Save Burger" button.</h2>
 <form id="addburger" class="button-size">
